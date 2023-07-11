@@ -1,0 +1,22 @@
+{
+  "name": "moxa_landing_page",
+  "version": "1.0.0",
+  "description": "Moxa_landing_page",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm moxa.js",
+    "scss": "node-sass --watch sass -o css"
+  },
+  "author": "Asy",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-watch": "^5.0.1",
+    "gulp-watch-pug": "^1.0.0"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

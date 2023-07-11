@@ -1,0 +1,19 @@
+{
+  "name": "edgestore",
+  "description": "Store edge relationships for two-way retrieval. Ideal for dependency tracking.",
+  "version": "1.0.3",
+  "homepage": "https://github.com/lishid/edgestore",
+  "repository": "git://github.com/lishid/edgestore.git",
+  "author": "Shida Li <lishid@gmail.com>",
+  "main": "./index.js",
+  "keywords": [
+    "two",
+    "way",
+    "edge",
+    "map",
+    "store",
+    "graph",
+    "dependency"
+  ],
+  "license": "MIT"
+}

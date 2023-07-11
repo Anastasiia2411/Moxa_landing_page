@@ -1,0 +1,299 @@
+include small_star_svg
+include big_sun_svg
+
+doctype html
+html(lang= "en")
+    head
+        link(href="../css/style.css", rel="stylesheet")
+    body
+        div.background-container
+            section.header
+                div.header-images
+                    a(href="#" class="header-images-link")
+                        div.header-images_logo
+                            +big-sun-svg("32", "32", "men_preview_text_header_svg")
+                        div.header-image_name
+                            include logo_svg
+                nav
+                    ul.header-navigation
+                        li.header-navigation_item
+                            a(href="#" class="header-navigation_item_link") Home
+                        li.header-navigation_item
+                            a(href="#" class="header-navigation_item_link") About
+                        li.header-navigation_item
+                            a(href="#" class="header-navigation_item_link") Contact
+                div.header_link_container
+                    a(href ="#" class="header_link") Let's talk
+            section.section_men_preview
+                main.men_preview
+                    div.men_preview_text_container
+                        h1.men_preview_text_header   HI, I’M TAYLER.
+                            br
+                            | A CREATIVE
+                            span
+                                +big-sun-svg("40", "40", "men_preview_text_header_svg")
+                            </span>
+                            | DESIGNER BASED IN LONDON
+                        div.men_preview_paragraph_container
+                            p.men_preview_paragraph DESIGN
+                                span
+                                    +small-star-svg("men_preview_paragraph_svg")
+                            p.men_preview_paragraph DEVELOPMENT
+                                span
+                                    +small-star-svg("men_preview_paragraph_svg")
+                            p.men_preview_paragraph WEBFLOW
+                        ul.men_preview_link_list
+                            li.men_preview_link_list_el
+                                a(href="#" class="men_preview_link men_preview_link_black") Got a project?
+                            li.men_preview_link_list_el
+                                a(href="#" class="men_preview_link men_preview_link_white") Let's talk.
+                    div.man_photo_container
+                        img(src="../templates/img/One_man.png" alt='login' class="man_photo")
+                div.men_preview_footer
+                    ul.men_preview_footer_list
+                        li.men_preview_footer_list_el DEVELOPMENT
+                            +small-star-svg("men_preview_footer_list_el_svg")
+                        li.men_preview_footer_list_el STRATEGY
+                            +small-star-svg("men_preview_footer_list_el_svg")
+                        li.men_preview_footer_list_el PRODUCT DESIGN
+                            +small-star-svg("men_preview_footer_list_el_svg")
+                        li.men_preview_footer_list_el MOTION GRAPHIC
+                            +small-star-svg("men_preview_footer_list_el_svg")
+                        li.men_preview_footer_list_el ART DIRECTION
+                            +small-star-svg("men_preview_footer_list_el_svg")
+                        li.men_preview_footer_list_el DESIGN
+                            +small-star-svg("men_preview_footer_list_el_svg")
+                        li.men_preview_footer_list_el BRANDING
+            section.about_me
+                div.center_container
+                    ul.about_me_list
+                        li.about_me_list_el
+                            p.about_me_list_el_paragraph  TAYLER
+                                span
+                                    +small-star-svg("about_me_list_el_paragraph_svg")
+                                </span>
+                                | BARTHHOLD
+                            h2.about_me_list_el_header Lead product designer and art director.
+                        li.about_me_list_el_second
+                            h3.about_me_list_el_second_header Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            br
+                            br
+                            p.about_me_list_el_second_paragraph  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            ul.about_me_list_el_second_list
+                                li.about_me_list_el_second_list_el
+                                    p.about_me_list_el_second_list_el_paragraph BORN IN
+                                    h4.about_me_list_el_second_list_el_header New York
+                                li.about_me_list_el_second_list_el
+                                    p.about_me_list_el_second_list_el_paragraph EXPERIENCE
+                                    h4.about_me_list_el_second_list_el_header 7+ Years
+                                li.about_me_list_el_second_list_el
+                                    p.about_me_list_el_second_list_el_paragraph DATE OF BIRTH
+                                    h4.about_me_list_el_second_list_el_header 27 June 1992
+                    ul.about_me_list_experience
+                        li.about_me_list_experience_el
+                            h3.about_me_list_experience_el_header 7+
+                            p.about_me_list_experience_el_paragraph Years of Experience
+                        li.about_me_list_experience_el
+                            h3.about_me_list_experience_el_header 50+
+                            p.about_me_list_experience_el_paragraph Project Completed
+                        li.about_me_list_experience_el
+                            h3.about_me_list_experience_el_header 30+
+                            p.about_me_list_experience_el_paragraph Happy Clients
+            section.Awards
+                div.center_container
+                    div.text_container_for_header_section
+                        div.text_container_for_header_section_svg_container
+                            +big-sun-svg("40", "40", "men_preview_text_header_svg")
+                        h2.text_container_for_header_section_header Awards
+                        p.text_container_for_header_section_paragraph REGONITIONS & ACCOIMPLISHMENTS
+                    ul.Awards_list
+                        li.Awards_list_el
+                            div.Awards_list_el_first_text_container
+                                div.Awards_list_el_first_text_container_wraper_number
+                                    p.Awards_list_el_first_text_container_number 1
+                                div.Awards_list_el_first_text_container_wraper
+                                    h3.Awards_list_el_first_text_container_wraper_header Webflow Awwwards Team
+                                    p.Awards_list_el_first_text_container_wraper_paragraph Runner Up - Webflow Expert Design
+                            div.Awards_list_el_second_text_container
+                                h3.Awards_list_el_second_text_container_header PRODUCT DESIGN
+                                p.Awards_list_el_second_text_container_paragraph  2022
+                        li.Awards_list_el
+                            div.Awards_list_el_first_text_container
+                                div.Awards_list_el_first_text_container_wraper_number
+                                    p.Awards_list_el_first_text_container_number 2
+                                div.Awards_list_el_first_text_container_wraper
+                                    h3.Awards_list_el_first_text_container_wraper_header Webflow Awwwards Team
+                                    p.Awards_list_el_first_text_container_wraper_paragraph Runner Up - Webflow Expert Design
+                            div.Awards_list_el_second_text_container
+                                h3.Awards_list_el_second_text_container_header DEVELOPMENT
+                                p.Awards_list_el_second_text_container_paragraph  2021
+                        li.Awards_list_el
+                            div.Awards_list_el_first_text_container
+                                div.Awards_list_el_first_text_container_wraper_number
+                                    p.Awards_list_el_first_text_container_number 3
+                                div.Awards_list_el_first_text_container_wraper
+                                    h3.Awards_list_el_first_text_container_wraper_header Webflow Awwwards Team
+                                    p.Awards_list_el_first_text_container_wraper_paragraph Runner Up - Webflow Expert Design
+                            div.Awards_list_el_second_text_container
+                                h3.Awards_list_el_second_text_container_header BRANDING
+                                p.Awards_list_el_second_text_container_paragraph  2018
+                        li.Awards_list_el
+                            div.Awards_list_el_first_text_container
+                                div.Awards_list_el_first_text_container_wraper_number
+                                    p.Awards_list_el_first_text_container_number 4
+                                div.Awards_list_el_first_text_container_wraper
+                                    h3.Awards_list_el_first_text_container_wraper_header Webflow Awwwards Team
+                                    p.Awards_list_el_first_text_container_wraper_paragraph Runner Up - Webflow Expert Design
+                            div.Awards_list_el_second_text_container
+                                h3.Awards_list_el_second_text_container_header PRODUCT DESIGN
+                                p.Awards_list_el_second_text_container_paragraph  2014
+            section.portfolio
+                div.center_container
+                    div.text_container_for_header_section
+                        div.text_container_for_header_section_svg_container
+                            +big-sun-svg("40", "40", "men_preview_text_header_svg")
+                        h2.text_container_for_header_section_header Portfolio
+                        p.text_container_for_header_section_paragraph REGONITIONS & ACCOIMPLISHMENTS
+                    ul.portfolio_list
+                        li.portfolio_list_el
+                           img(src="../templates/img/portfolio_section_first.png" width=460 height=307)
+                           div.portfolio_list_el_text_wrapper
+                             h3.portfolio_list_el_text_wrapper_types_text Art Direction
+                             h2.portfolio_list_el_text_wrapper_header Beautiful and advanced website interfaces
+                             div.portfolio_list_el_text_wrapper_link_container
+                               a(href="#" class="portfolio_list_el_text_wrapper_link") Read More
+                        li.portfolio_list_el
+                            div.portfolio_list_el_text_second_wrapper
+                             h3.portfolio_list_el_text_wrapper_types_text Art Direction
+                             h2.portfolio_list_el_text_wrapper_header Beautiful and advanced website interfaces
+                             div.portfolio_list_el_text_wrapper_link_container
+                                a(href="#" class="portfolio_list_el_text_wrapper_link") Read More
+                            img(src="../templates/img/portfolio_section_second.png" width=460 height=307)
+                        li.portfolio_list_el
+                            img(src="../templates/img/portfolio_section_third.png" width=460 height=307)
+                            div.portfolio_list_el_text_wrapper
+                                h3.portfolio_list_el_text_wrapper_types_text Art Direction
+                                h2.portfolio_list_el_text_wrapper_header Beautiful and advanced website interfaces
+                                div.portfolio_list_el_text_wrapper_link_container
+                                    a(href="#" class="portfolio_list_el_text_wrapper_link") Read More
+                        li.portfolio_list_el
+                            div.portfolio_list_el_text_second_wrapper
+                                h3.portfolio_list_el_text_wrapper_types_text Art Direction
+                                h2.portfolio_list_el_text_wrapper_header Beautiful and advanced website interfaces
+                                div.portfolio_list_el_text_wrapper_link_container
+                                    a(href="#" class="portfolio_list_el_text_wrapper_link") Read More
+                            img(src="../templates/img/portfolio_section_fourth.png" width=460 height=307)
+            section.services
+                div.center_container
+                    div.text_container_for_header_section
+                        div.text_container_for_header_section_svg_container
+                            +big-sun-svg("40", "40", "men_preview_text_header_svg")
+                        h2.text_container_for_header_section_header Services
+                        p.text_container_for_header_section_paragraph REGONITIONS & ACCOIMPLISHMENTS
+                    ul.services_list
+                        li.services_list_el
+                          h2.services_list_el_header Web Design
+                          p.services_list_el_paragraph Every single project is a challenge that we accept eagerly. Let’s implement innovative ideas together!
+                        li.services_list_el
+                            h2.services_list_el_header Product Design
+                            p.services_list_el_paragraph Every single project is a challenge that we accept eagerly. Let’s implement innovative ideas together!
+                        li.services_list_el
+                            h2.services_list_el_header UI/UX Design
+                            p.services_list_el_paragraph Every single project is a challenge that we accept eagerly. Let’s implement innovative ideas together!
+                        li.services_list_el
+                            h2.services_list_el_header Art Direction
+                            p.services_list_el_paragraph Every single project is a challenge that we accept eagerly. Let’s implement innovative ideas together!
+            section.customer
+                div.center_container
+                    div.text_container_for_header_section
+                        div.text_container_for_header_section_svg_container
+                            +big-sun-svg("40", "40", "men_preview_text_header_svg")
+                        h2.text_container_for_header_section_header Happy Customer
+                    ul.customer_list
+                        li.customer_list_el
+                           img(src="../templates/img/Group1.png")
+                        li.customer_list_el
+                            img(src="../templates/img/Group2.png")
+                        li.customer_list_el
+                            img(src="../templates/img/Group3.png")
+                        li.customer_list_el
+                            img(src="../templates/img/Group4.png")
+                        li.customer_list_el
+                            img(src="../templates/img/Group1.png")
+                        li.customer_list_el
+                            img(src="../templates/img/Group2.png")
+                        li.customer_list_el
+                            img(src="../templates/img/Group3.png")
+                        li.customer_list_el
+                            img(src="../templates/img/Group4.png")
+            section.articles
+                div.center_container
+                    div.text_container_for_header_section
+                        div.text_container_for_header_section_svg_container
+                            +big-sun-svg("40", "40", "men_preview_text_header_svg")
+                        h2.text_container_for_header_section_header Articles
+                        p.text_container_for_header_section_paragraph REGONITIONS & ACCOIMPLISHMENTS
+                    ul.articles_list
+                        li.articles_list_el
+                          div.articles_list_el_first_text_container
+                              div.articles_list_el_first_text_container_data_wrapper
+                                  p.articles_list_el_first_text_container_data_wrapper_theme DESIGN
+                                  span.articles_list_el_first_text_container_data_wrapper_theme /
+                                  p.articles_list_el_first_text_container_data_wrapper_theme April 28, 2022
+                              h2.articles_list_el_first_text_container_data_wrapper_header Why I moved from Wordpress to Webflow
+                          div.articles_list_el_second_text_container
+                              p.articles_list_el_second_text_container_paragraph Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                        li.articles_list_el
+                            div.articles_list_el_first_text_container
+                                div.articles_list_el_first_text_container_data_wrapper
+                                    p.articles_list_el_first_text_container_data_wrapper_theme DESIGN
+                                    span.articles_list_el_first_text_container_data_wrapper_theme.slash /
+                                    p.articles_list_el_first_text_container_data_wrapper_theme April 26, 2022
+                                h2.articles_list_el_first_text_container_data_wrapper_header What did i learn from doing 50+ design sprints
+                            div.articles_list_el_second_text_container
+                                p.articles_list_el_second_text_container_paragraph Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                        li.articles_list_el
+                            div.articles_list_el_first_text_container
+                                div.articles_list_el_first_text_container_data_wrapper
+                                    p.articles_list_el_first_text_container_data_wrapper_theme BUSINESS & OFFICE
+                                    span.articles_list_el_first_text_container_data_wrapper_theme /
+                                    p.articles_list_el_first_text_container_data_wrapper_theme April 26, 2022
+                                h2.articles_list_el_first_text_container_data_wrapper_header Fostering professional growth in your company
+                            div.articles_list_el_second_text_container
+                                p.articles_list_el_second_text_container_paragraph Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                            div
+                                +big-sun-svg("240", "240", "articles_big_sun_svg")
+                    div.articles_btn_container
+                        a.articles_btn_container_link(href="#") Browse Articles
+            section.subscribe
+                div.center_container
+                    ul.subscribe_list
+                        li.subscribe_list_el
+                          h2.subscribe_list_el_header Subscribe to our newsletter
+                        li.subscribe_list_el
+                           form.subscribe_list_el_form
+                             input.subscribe_list_el_form_input(type="text" placeholder="Email Address")
+                             input.subscribe_list_el_form_button(type="button" value="Subscribe")
+            footer.footer
+                div.center_container
+                   ul.footer_list
+                      li.footer_list_el
+                         +big-sun-svg("32", "32", "footer_big_sun_svg")
+                         div.footer_list_el_wrapper
+                             a.footer_list_el_wrapper_link(href="#") Style Guide
+                             a.footer_list_el_wrapper_link(href="#") Licence
+                             a.footer_list_el_wrapper_link(href="#") Changelog
+                      li.footer_list_el
+                         p.footer_list_el_paragraph © Made by Portfolio Template & powered by Flowbase
+                         ul.footer_list_el_network_svg_list
+                             li.footer_list_el_network_svg_list_el
+                               a.footer_list_el_network_svg_list_el_link(href="#")
+                                 include linkedin_footer_svg
+                             li.footer_list_el_network_svg_list_el
+                               a.footer_list_el_network_svg_list_el_link(href="#")
+                                 include twitter_footer_svg
+                             li.footer_list_el_network_svg_list_el
+                               a.footer_list_el_network_svg_list_el_link(href="#")
+                                 include instagram_footer_svg
+
+
